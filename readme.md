@@ -40,9 +40,9 @@ Let's study this...
 We can count the number of components that are used to form gibberish words
 from `./gibberish/database/components.yaml` and `./gibberish/__init__.py`:
 
-  initials: 98 items
-  vowels: 39 items
-  finals: 103 items
+  initials: 98 items  
+  vowels: 39 items  
+  finals: 103 items  
 
 Words are constructed from 'initial' + 'vowel' + 'final'
 (plus another 'vowel' + 'final' for each `vowel_consonent_repeats`>1)
